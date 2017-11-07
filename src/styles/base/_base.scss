@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    // background: $dark-blue;
+    background: $swag-purple;
+    font-family: 'Droid Sans', sans-serif; 
+    color: red;
+    font-size: $m-size
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}

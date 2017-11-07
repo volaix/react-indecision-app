@@ -1,0 +1,29 @@
+// widget
+.widget{
+    // background: $light-blue;
+    background: white;
+    margin-bottom: $xl-size;
+    border-radius: 1rem;
+}
+
+.widget__message{
+    color: $off-white;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    margin: 0;
+}
+// Widget Header
+.widget-header{
+    // background: $swag-purple-darkend;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    // border-top-right-radius: 1rem;
+    // border-top-left-radius: 1rem;
+}
+
+.widget-header__title {
+    margin: 0; 
+}

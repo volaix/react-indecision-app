@@ -1,0 +1,46 @@
+//big button
+.big-button {
+    background: none;
+    // background: $purple;
+    border: 1px solid white;
+    // border-bottom: 0.6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    width: 100%;
+    padding: 2.4rem;
+    border-radius: 2rem;
+}
+
+.big-button:disabled {
+    opacity:0.5;
+}
+
+.big-button:hover {
+    background: $swag-purple-darkend;
+}
+
+//button
+.button {
+    background: $swag-purple;
+    border: none;
+    border-radius: 1rem;    
+    // border-bottom: 0.3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
